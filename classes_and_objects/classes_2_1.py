@@ -54,7 +54,7 @@ class Sphere(Circle):
         super().__init__(x, y, rd)
 
     def volume(self):
-        return math.pi * self.__rd ** 2
+        return 4/3 * math.pi * self.__rd ** 3
     
     def area(self):
         return 4 * math.pi * self.__rd ** 2  
